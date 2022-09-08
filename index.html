@@ -16,7 +16,8 @@ Good luck, and have fun!
         <meta charset="utf-8">
         <meta name="description" content="Software manual provided by Software Training for Students at the University of Wisconsin.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel='stylesheet' id='uwmadison-fonts-css'  href='https://brand.wisc.edu/content/themes/uw-theme/dist/fonts/uw160/fonts.css?ver=1.1.1' type='text/css' media='all' /><link rel="stylesheet" type="text/css" href="../master-files/css/stylesheet.css">
+        <link rel='stylesheet' id='uwmadison-fonts-css'  href='https://brand.wisc.edu/content/themes/uw-theme/dist/fonts/uw160/fonts.css?ver=1.1.1' type='text/css' media='all' />
+        <link rel="stylesheet" type="text/css" href="../master-files/css/stylesheet.css">
         <script src="../master-files/highlight.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -45,7 +46,7 @@ Good luck, and have fun!
         <h1 class="no-top-margin">Introduction</h1>
         <p>Adobe Photoshop, a part of the Adobe Creative suite, is a powerful image editing and manipulation program. Used worldwide by professional photographers and designers, Photoshop is considered industry standard.</p>
         <h2>About this Class</h2>
-        <p>This class introduces the basic concepts and functions of Adobe Photoshop CC. By the end of this class, you will have worked with many of Photoshop's core features. This includes basic image adjustments, photo correction tools, and content manipulation tools. We will also be using these skills to design and create a simple poster, that will be used in print media and on the web.</p>
+        <p>This class introduces the basic concepts and functions of Adobe Photoshop CC. By the end of this class, you will have worked with many of Photoshop's core features. This includes basic image adjustments,  and content manipulation tools. We will also be using these skills to design and create a simple postcard, that can be used in print media and on the web.</p>
         <p>Photoshop 1 is the first in a series of Photoshop classes and is intended to serve as an introduction to the program, and to the concept of digital image editing in general. In order to explore more advanced techniques, students should consider enrolling in <em>Photoshop 2: Filters and Effects</em> or <em>Photoshop 2: Portrait Retouching</em>.</p>
         <h2>Prerequisites and Requirements</h2>
         <ul>
@@ -60,7 +61,7 @@ Good luck, and have fun!
     <section class="topic">
         <h1>Outcomes</h1>
         <p>After completing this manual, learners will know:</p>
-        <ul>
+        <ul class="instruction-list">
             <li>The elements of the Photoshop interface including Tools, Panels, and Layers</li>
             <li>What Adjustment Layers are and why we use them</li>
             <li>What pixel dimensions and image resolution are</li>
@@ -74,8 +75,8 @@ Good luck, and have fun!
             <li>Resize images</li>
             <li>Add and adjust the following Adjustment Layers: Levels, Brightness/Contrast, Color Balance</li>
             <li>Use the History Panel to adjust multiple levels of Undo/Redo</li>
-            <li>Remove Red-Eye from images</li>
-            <li>Remove blemishes with the Spot Healing brush</li>
+            <li>Use Blending modes </li>
+            <li>Remove unwanted objects from an image</li>
             <li>Create and edit new documents</li>
             <li>Add and edit text with the Type tool</li>
             <li>Create seletions with the Quick Selection tool</li>
@@ -84,80 +85,95 @@ Good luck, and have fun!
     </section>
     <section class="topic">
         <h1>Photoshop Interface</h1>
-        <div class="side-image-medium"><img src="images/introduction-logo.png"></div>
+        <div class="side-image-medium"><img src="images/Adobe_Photoshop_CC_icon.jpg" alt="photoshop icon"></div>
         <p>This section provides a brief overview of the Photoshop interface and describes its commonly-used components.</p>
         <p>To open Photoshop, click the blue Photoshop icon in your computer's dock or taskbar. If you don't find it there, you may have to search your computer's installed applications to find it.</p>
+        <h2>Interface Overview</h2>
+         <p>The portion of the Photoshop interface that is used to view and edit documents is known as the workspace. A wide variety of windows, tools, and menus (known as panels) can be displayed within the workspace in order to provide quick access to the features needed for a given task.</p>
+            <h3>Creating a New Document</h3>
+            <ol class="instruction-list">
+                <li>
+                    Open the Photoshop application on your computer
+                </li>
+                <li>
+                    <p>Click <strong>Create New</strong></p>
+                </li>
+                <li>
+                    In the New Document window, adjust the settings to those shown below and click <span class="kbd"></span> Create
+                </li>
+            </ol>
+            <div class="full-width"><img src="images/preset_details.png" alt="preset details"></div>
+            <h2>Interface Components</h2>
+            <p>Photoshop's interface consists of five main areas, labeled below.</p>
+            <img class="full-width" src="images/Photoshop_Interface.png" alt="photoshop screen">
+            
+                <h3>Application Bar</h3>
+                    <p>The Application Bar contains drop-down menus common to many applications, such as File, Edit, and View, as well as a few that are unique to Photoshop. These menus provide access to nearly all commands and options available in Photoshop. Some commands/options are duplicated within panels, but others are available only through the menu bar. It also contains the shortcut to Adobe Bridge and Adobe Stock.</p>
+                <h3>Document Window </h3>
+                    <p>The document window displays the file that you are currently working on. If you have multiple files open, each file appears as a tab in the document window.</p>
+                <h3>Tools Panel</h3>
+                    <p>The Tools Panel contains tools used to create and manipulate artwork (like a toolbox). To select a tool, simply click it. Tools with a triangle in the lower-right corner have additional tools hidden beneath them. To display hidden tools, click and hold a tool icon; a drop-down menu showing the hidden tools will appear.</p>
+                    <div class="centered-image-medium"><img src="images/interface-toolspanel.png" alt="tools panel"></div>
+                <h3>Options Panel</h3>
+                    <p>The control panel displays options and features for the currently selected tool. Select different tools, and you'll notice the control panel changes for each one.Keep in mind that there may be additional options for your selected tool beyond those displayed in the Control Panel.</p>
+                
+                <h3>Panel Dock</h3>
+                    <div class="side-image-small"><img src="images/paneldock_icons.png" alt="panel dock icons"></div>
+                    <p>Panels are menus that allow you to monitor and modify your image. On the left side of the panel dock, you'll see icons representing collapsed, or hidden panels. Select the icons to reveal these panels. The panel dock also contains separate sections, each containing multiple panels. Click and drag a panel's tab to reorder it, or to move it elsewhere on the screen or in the panel dock.</p>
+                    <div class="centered-image-medium"><img src="images/paneldock_tab.png" alt="panel dock tabs"></div>
+                
         <h2>Photoshop Workspace</h2>
-        <p>The portion of the Photoshop interface that is used to view and edit documents is known as the workspace. A wide variety of windows, tools, and menus (known as panels) can be displayed within the workspace in order to provide quick access to the features needed for a given task.</p>
-        <div class="centered-image-large"><img src="images/interface-fullworkspace.png"></div>
-        <h3>Pre-Defined Workspace Layouts</h3>
-        <p>Photoshop offers an incredible amount of features and tools, which often causes the workspace to become cluttered quickly. Luckily, Photoshop has pre-defined layouts of panels and menus, known as <strong>workspace layouts</strong>.</p>
-        <ol class="instruction-list">
-            <li>
-                <p>In the menu bar at the top of the screen, select<span class="type-text"> Window > Workspace</span>. Here you can see a full list of all pre-defined workspace layouts available to us, including workspaces made for typography, 3D graphics, and much more.</p>
-                <div class="centered-image-large"><img src="images/interface-workspaceoptions.png"></div>
-            </li>
-            <li>
-                <p>Select "Essentials" from the menu. This is Photoshop's default interface, and the one we will be using. However, feel free to explore and compare the other workspaces on your own.</p>
-            </li>
-        </ol>
-        <h3>Other Workspace Options</h3>
+        <p>The Control Panel contains the Workspace Switcher menu. The Workspace Switcher menu can be used to arrange multiple windows. Depending on your project, there are a variety of window layout options that will suit your needs. Use the drop-down menu to choose one of the many available window layout options.</p>
         <p>Under the same menu, you'll find an option that says <strong>"Reset Essentials".</strong> If you end up moving toolbars and panels around on your own and want to return to the Essentials layout, this button will always reset your workspace to its original layout.</p>
         <p>Also under the same menu, you'll notice options for <strong>"New Workspace"</strong> and <strong>"Delete Workspace"</strong>. Along with Photoshop's pre-defined workspaces, you can also build and save your own pre-defined workspaces. However, we will not be using this feature in this class.</p>
-        <h2>Common Interface Components</h2>
-        <p>Photoshop's interface consists of five main areas, labeled below.</p>
-        <img class="full-width" src="images/interface-labeledworkspace.png">
-        <ul>
-            <li>
-                <p><strong>Document Window:</strong> The document window displays the file that you are currently working on. If you have multiple files open, each file appears as a tab in the document window.</p>
-            </li>
-            <li>
-                <p><strong>Menu Bar:</strong> The menu bar contains drop-down menus common to many applications, such as File, Edit, and View, as well as a few that are unique to Photoshop. These menus provide access to nearly all commands and options available in Photoshop. Some commands/options are duplicated within panels, but others are available only through the menu bar. </p>
-            </li>
-            <li>
-                <p><strong>Tools Panel:</strong> The tools panel contains tools used to create and manipulate artwork. Tools with a triangle in the lower-right corner have additional tools beneath them.</p>
-                <div class="centered-image-medium"><img src="images/interface-toolspanel.png"></div>
-                <p>Click and hold on a tool icon to reveal the other tools beneath it.</p>
-            </li>
-            <li>
-                <p><strong>Options Bar:</strong> The options bar displays options and features for the currently selected tool. Select different tools, and you'll notice the options bar changes for each one.</p>
-            </li>
-            <li>
-                <div class="side-image-small"><img src="images/interface-collapsedpanels.png"></div>
-                <p><strong>Panel Dock:</strong> Panels are menus that allow you to monitor and modify your image. On the left side of the panel dock, you'll see icons representing collapsed, or hidden panels. Select the icons to reveal these panels. The panel dock also contains separate sections, each containing multiple panels. Click and drag a panel's tab to reorder it, or to move it elsewhere on the screen or in the panel dock.</p>
-                <div class="centered-image-medium"><img src="images/interface-paneltabs.png"></div>
-            </li>
-        </ul>
+
     </section>
     <section class="topic">
         <h1>Navigating the Workspace</h1>
-        <p>Before learning how to navigate the workspace, we need to open an image to work with. <span class="highlight">In the menu bar, navigate to<span class="type-text"> File > Open</span>, then navigate to our class files, and open<span class="type-text"> hallway.jpg</span>.</span>
         </p>
-        <p>There are a number of different tools we can use to easily navigate and manuever the workspace. They are listed in detail below.</p>
-        <ul>
-            <li> <img class="sidebar-icon" src="images/icon-zoomtool.png">
-                <p><strong>Zoom Tool:</strong> The zoom tool increases and decreases the document display size. While the zoom tool is selected, you can zoom in my clicking on any portion of the image in your document window. Likewise, to zoom out, press and hold the <span class="type-text">Option/Alt</span> key on your keyboard, then click again on the image.</p>
-                <p>If your mouse has a scroll wheel on it, you may also hold <span class="type-text">Option/Alt</span> on your keyboard while using the scroll wheel to zoom in and out quickly.</p>
-            </li>
-            <li> <img class="sidebar-icon" src="images/icon-handtool.png">
-                <p><strong>Hand Tool:</strong> The hand tool is used to pan around the image. Try clicking and dragging around the image to reposition it in your workspace. </p>
-                <p>While zoomed in, you can quickly switch to the hand tool by pressing and holding the spacebar on you keyboard.</p>
-            </li>
-        </ul>
-        <p>For laptop users with trackpads, you may be able to use a pinch-to-zoom gesture to zoom into your document. You may also be able to use two fingers to pan around your workspace when zoomed it. These gestures are common, but do not work on all laptops. </p>
+        <p>Working in Photoshop often involves moving around the workspace in order to focus on different portions of your project. In this section, we discuss a few methods of navigating the workspace.</p>
+      
+        <h2>Zoom Tool</h2>  
+             <div class="reference">
+                <img src="images/icon-zoomtool.png" alt="zoom tool">
+                <h2>Zoom Tool:</h2>  
+                <p>The Zoom Tool lets you zoom in or zoom out to increase or decrease the document display size.</p>
+
+                   <p> Quickly zoom with any tool by holding 
+                    <kbd>Option/Alt</kbd> and scrolling with the mouse/trackpad or by hitting <kbd>Ctrl/Command</kbd> and <kbd>+/_</kbd>.</p>
+               </div>
+               <h2>Hand Tool</h2>
+         <div class="reference">
+            <img src="images/icon-handtool.png" alt="hand tool">
+            <h2>Hand Tool:</h2>
+             <p>Used to move around the image when the document is zoomed in beyond the workspace.</p>
+             <p><strong>Shortcut:</strong> Hold <kbd>Spacebar</kbd> while dragging with the mouse.</p>
+ </div>
+
+    <p>For laptop users with trackpads, you may be able to use a pinch-to-zoom gesture to zoom into your document. You may also be able to use two fingers to pan around your workspace when zoomed it. These gestures are common, but do not work on all laptops. </p>
+
+                
     </section>
     <section class="topic">
         <h1>Resizing, Cropping, and History States</h1>
-        <p>In this section, we will discuss basic image editing tasks, such as resizing and cropping. We will also learn how to "undo" our work in Photoshop using history states. Throughout this section we will focus on a concept called "non-destructive editing", which means making changes to images without affecting the original file.</p>
+            <p>In this section, we will discuss basic image editing tasks, such as resizing and cropping. We will also learn how to "undo" our work in Photoshop using history states. Throughout this section we will focus on a concept called "non-destructive editing", which means making changes to images without affecting the original file.</p>
         <h2>Resizing Images</h2>
-        <p>Every digital image is made up of pixels, and each digital image has specific dimensions regarding the number of pixels it contains. Often it is necessary to resize an image, either scaling it up, or scaling it down. We will learn to properly resize images using the image size menu.</p>
+            <p>Every digital image is made up of pixels, and each digital image has specific dimensions regarding the number of pixels it contains. Often it is necessary to resize an image, either scaling it up, or scaling it down. We will learn to properly resize images using the image size menu.</p>
         <h3>Decreasing Image Size</h3>
-        <p>In this exercise, we will learn to decrease the size of an image. Most images can be scaled down without a loss of quality. Before making any changes to our image, we will save a copy, to avoid changing the original image. <span class="highlight">In the menu bar, choose <span class="typee-text">File > Save As</span> and save the document as a Photoshop (PSD) file.</span>
+        <div class="sidebar-note"> 
+        <h2>Free Transform</h2>
+                <p>We can also resize images by going to 
+                <span class="highlight"><strong>Edit>Free Transform</strong></span>and use your mouse to drag the image to the desired size.</p>
+              <p><strong>Shortcut:</strong><kbd>Command/Ctrl+T</kbd></p></div>
+        <p>In this exercise, we will learn to decrease the size of an image. Most images can be scaled down without a loss of quality.
         </p>
         <ol class="instruction-list">
+            <li>First we will open an existing image to resize. In the menu bar, choose <span class="type-text">Open</span> then select <span class="highlight">machu_picchu.jpg</span> 
+            </li>
+            <li> Before making any changes to our image, we will save a copy, to avoid changing the original image.In the menu bar, choose <span class="type-text">File > Save As</span> and save the document as a Photoshop (PSD) file.</li>
             <li>
                 <p>In the menu bar, choose <span class="type-text">Image > Image Size</span>. The window that opens shows the current size and resolution, along with a preview of any changes you make.</p>
-                <div class="centered-image-large"><img src="images/editing-imageresize-1.png"></div>
+                <div class="centered-image-large"><img src="images/imagesize_menu.png" alt="machu_picchu"></div>
             </li>
             <div class="sidebar-note">
                 <h2>Image Dimensions</h2>
@@ -166,17 +182,16 @@ Good luck, and have fun!
             </div>
             <li>
                 <p>Before resizing an image, make sure that the chain lock next to the width and height fields is locked. This will constraint the proportions of the image so you will not distort it when resizing.</p>
-                <div class="centered-image-tiny"><img src="images/editing-imageresize-2.png"></div>
+                <div class="centered-image-medium"><img src="images/image_resize.png" alt="resizing parameters"></div>
             </li>
             <li>
-                <p>In the width field, type <span class="type-text">8</span> and leave the units set to inches. Because we have the width and height set to change proportionally, you'll notice the height of the image is updated automatically. Click OK to finish the resize.</p>
+                <p>In the width field, type <span class="type-text">900</span> and leave the units set to pixels. Because we have the width and height set to change proportionally, you'll notice the height of the image is updated automatically. Click OK to finish the resize.</p>
             </li>
             <li>
                 <p>Save you file by navigating to <span class="type-text">File > Save</span> in the menu bar.</p>
             </li>
         </ol>
-        <h3>Increasing Image Size</h3>
-        <div class="sidebar-note">
+        <h3>Increasing Image Size</h3>        <div class="sidebar-note">
             <h2>Units of Measure</h2>
             <p>Clicking on the dropdown next to each measurement will reveal a list of different units, including:</p>
             <ul>
@@ -203,41 +218,56 @@ Good luck, and have fun!
                 </li>
             </ul>
         </div>
-        <p>Increasing the size of an image follows the exact same procedure, with one small caveat. When increasing the size of a digital image, we actually need to add pixels to the image that did not exist before. In most programs, increasing image size will cause it to look blurry or pixelated. However, Photoshop has a series of smart algorithms it can use to analyze the image, and add pixels without losing too much image quality.</p>
-        <p>Under the image resize menu, make sure "Resample" is checked, then select "Preserve Details".</p>
-        <div class="centered-image-medium"><img src="images/editing-imageresize-3.png"></div>
-        <h2>Straightening and Cropping</h2>
-        <p>Another common Photoshop task is straightening and cropping images. Photoshop CC includes a highly advanced cropping tool that allows you to non-destructively straighten or crop your images.</p>
-        <h3>Straightening Images</h3>
-        <p>Right now, you'll notice our image is slightly tilted. To fix it, we'll use the straightening feature within the crop tool.</p>
-        <ol class="instruction-list"> <img class="sidebar-icon" src="images/icon-croptool.png">
+             <p>Increasing the size of an image follows the exact same procedure, with one small caveat. When increasing the size of a digital image, we actually need to add pixels to the image that did not exist before. In most programs, increasing image size will cause it to look blurry or pixelated. However, Photoshop has a series of smart algorithms it can use to analyze the image, and add pixels without losing too much image quality.</p>
+             <ol class="instruction-list">
+                <li>
+                    <p>In the menu bar, choose <span class="type-text">Image > Image Size</span>. We will the same window as before.</p>
+                </li>
+                <li>
+                    <p>In the width field, type <span class="type-text">1000</span> and leave the units set to pixels. Because we have the width and height set to change proportionally, you'll notice the height of the image is updated automatically. Click OK to finish the resize.</p>
+                </li>
+                <li>
+                    <p>Under the image resize menu, make sure "Resample" is checked, then select "Preserve Details".</p>
+                </li>
+            </ol>
+        <div class="centered-image-medium"><img src="images/editing-imageresize-3.png" alt="preserve details"></div>
+        <h2>Straightening Images</h2>
+            <p>Another common Photoshop task is straightening. Photoshop CC includes a highly advanced cropping tool that allows you to non-destructively straighten your images.</p>
+            <p>Right now, you'll notice our image is slightly tilted. To fix it, we'll use the straightening feature within the crop tool.</p>
+        <ol class="instruction-list"> <img class="sidebar-icon" src="images/icon-croptool.png" alt="crop tool">
             <li>
                 <p>In the tools panel, find and select the crop tool.</p>
             </li>
             <li>
                 <p>In the options bar, make sure that "Delete Cropped Pixels" is unchecked. This will hide cropped-out areas of our photo, instead of entirely deleting them. This way we can always revert our changes if we want to.</p>
-                <div class="centered-image-medium"><img src="images/editing-cropping-1.png"></div>
-            </li> <img class="sidebar-icon" src="images/icon-straighteningtool.png">
+                <div class="centered-image-medium"><img src="images/editing-cropping-1.png" alt="delet cropped pixels"></div>
+            </li> <img class="sidebar-icon" src="images/icon-straighteningtool.png" alt="straighten tool">
             <li>
                 <p>In the options bar, select the straighten tool. Your cursor should change into crosshairs.</p>
             </li>
             <li>
                 <p>Click and drag to create a line along a straight edge within your image, as shown in the example, then release the mouse button. <span class="highlight">Photoshop will automatically rotate your image so that your line is perfectly vertical or horizontal.</span></p>
-                <div class="centered-image-small"><img src="images/editing-cropping-2.png"></div>
+                <div class="centered-image-small"><img src="images/straighten_image.png" alt="machu_picchu"></div>
             </li>
         </ol>
-        <img src="images/straighten-crop.gif" alt="Animated GIF showing the straighten and crop feature">
-        <h3>Cropping Images</h3>
-        <p>Using the crop tool, we can also remove portions of the image we don't want.</p>
+        <h2>Cropping Images</h2>
+        <div class="reference">
+            <h2>Crop Tool</h2>
+            <img src="images/crop_tool.png" alt="crop tool">
+             <p>Use the Crop Tool to crop images.</p>
+             <p>Use the Control Panel to manually input the desired ratio for your image.</p>
+             <p><strong>Shortcut: </strong><kbd>C</kbd></p>
+        </div>
+        <p>Using the crop tool, we can also remove portions of the image we don't want non-destructively.</p>
         <ol class="instruction-list">
             <li>
                 <p>Click and drag the edges of the crop rectangle so it only contains the portion of the image you wish to keep.</p>
-                <div class="centered-image-medium"><img src="images/editing-cropping-3.png"></div>
+                <div class="centered-image-medium"><img src="images/crop_image.png" alt="cropping"></div>
             </li>
             <li>
                 <p>Adjust the image's position within by clicking and dragging inside the crop rectangle.</p>
             </li>
-            <div class="side-image-small"><img src="images/editing-cropping-4.png"></div>
+            <div class="side-image-small"><img src="images/editing-cropping-4.png" alt="crop check mark"></div>
             <li>
                 <p>Once you are satisfied with your crop, click the check mark in the options bar, or press the enter key on your keyboard. <em>Until you confirm the changes by clicking the check mark, all other Photoshop features are locked!</em></p>
             </li>
@@ -253,7 +283,7 @@ Good luck, and have fun!
         <ol class="instruction-list">
             <li>
                 <p>From the menu bar, navigate to <span class="type-text">Window > History</span>. Here, you'll see a list of all changes made to your image.</p>
-                <div class="centered-image-small"><img src="images/editing-historystates.png"></div>
+                <div class="centered-image-medium"><img src="images/history_states.png" alt="editing history"></div>
             </li>
             <li>
                 <p>Click an editing step to revert back to that history state. Click on a different editing step further down the list to return to a more recent state.</p>
@@ -264,539 +294,270 @@ Good luck, and have fun!
         </ol>
     </section>
     <section class="topic">
-        <h1>Basic Image Adjustments</h1>
-        <p>Almost every image can benefit from minor adjustments to tone, contrast, and color. These adjustments help compensate for inaccuracies (over/under exposure, etc) or less than ideal conditions (low light, bright sunlight, etc) at the time the image was captured.</p>
-        <p>Photoshop offers a wide variety of adjustment features and options. In this section we will discuss only the most basic adjustment techniques that are both simple and extremely useful. We will continue to focus on non-destructive editing techniques by making use of adjustment layers, which allow adjustments to be applied as editable overlays, rather than permanent changes to the image.</p>
-        <h2>Creating Adjustment Layers</h2>
-        <p>There are two main ways to create adjustment layers, both of which you may use throughout this section. First, you can navigate to <span class="type-text">Layer > New Adjustment Layer</span> in the menu bar.</p>
-        <div class="centered-image-medium"><img src="images/adjustments-addinglayer-1.png"></div>
-        <p>The other method is to use the adjustments panel found in the panel dock. If you have difficulty finding it, go to <span class="type-text">Window > Adjustments</span>.</p>
-        <div class="centered-image-small"><img src="images/adjustments-addinglayer-2.png"></div>
-        <div class="tool-reference">
-            <h3>Adjustment Layers</h3>
-            <img src="images/adjustments-addinglayer-2.png" alt="The adjustment layers panel">
-            <p><strong>Adjustment Layers:</strong> Let you create non-destructive (meaning you can go back and change them later) adjustments to the appearance of an image.</p>
-            <p>These include things like <strong>Brightness/Contrast</strong>, <strong>Levels</strong>, <strong>Curves</strong>, <strong>Color Balance</strong>, <strong>Hue/Saturation</strong> and more.</p>
-            <p>Adjustment layers affect every layer that is lower than them in the Layers panel. If it is the very top layer, it affects every layer in the image. If it's the very bottom layer in the stack, it will not affect any other layers.</p>
-            <p>To make an Adjustment Layer affect only the layer directly beneath, right click the Adjustment Layer's name in the Layers panel and click <strong>Create Clipping Mask</strong></p>
-        </div>
-        <p>Each icon on the adjustments panel represents a different adjustment layer that can be added. Hover over an icon to view its name, then click on an icon to add that adjustment layer.</p>
-        <h2>Tone and Contrast Adjustments</h2>
-        <p>Tone and contrast adjustments change the distribution of light and dark values (also known as tonal range) within an image. These types of adjustments can be used to compensate for poor lighting conditions, and to sharpen the appearance of objects in an image.</p>
-        <h3>Levels</h3>
-        <p>In this exercise, we will use the levels panel to make adjustments to the tonal range of an image.</p>
-        <div class="side-image-large"><img src="images/adjustments-layerspanel.png"></div>
-        <ol class="instruction-list">
-            <li>
-                <p>Open <span class="type-text">singer.jpg</span> from the class files folder.</p>
+        <h1>The Layers Panel</h1>
+        <p>The Layers Panel in Photoshop is probably one of the most important panels you will need to know when working on a project. It contains all the layers that you are working on.</p>
+        <h2>What is a Layer?</h2>
+        <p>A layer is simply one image stacked on top of another. They are like sheets of stacked acetate. You can see through the transparent areas of a layer to the layers below. You can use layers to perform tasks such as compositing multiple images, adding text to an image, or adding vector graphic shapes.</p>
+       <h2>Create a New Layer</h2>
+            <p>We can create a new layer and specify a name and the options by going to <span class="type">Layer >New >Layer</span></p>
+            <img class="centered-image-small" src="images/layersmenu_newlayer.png" alt="layers panel, new layer">
+            <p style="text-align: center;"> <strong>OR</strong>
+            </p>
+            <img class="side-image-large" src="images/layerspanel_newlayer.png" alt="layers panel, new layer">
+            <ol class="instruction-list">
+                <li>Choose “New Layer” from the Layers panel menu.</li>
+                <li>Rename the layer “Machu Picchu” and then click OK. </li>
+                <li>The new layer is automatically selected and appears in the panel above the layer that was last selected
             </li>
-            <li>
-                <p>From the menu bar, choose <span class="type-text">Layer > New Adjustment Layer > Levels</span>.</p>
-            </li>
-            <li>
-                <p>In the new layer window, leave the settings as they are and click OK.</p>
-            </li>
-            <li>
-                <p>In the layers panel, make sure the new adjustment layer is selected. If the layers panel is visible, you can access it by going to <span class="type-text">Window > Layers</span> in the menu bar.</p>
-            </li>
-        </ol>
-        <div class="side-image-large"><img src="images/adjustments-histogram.png"></div>
-        <p>Notice that a properties panel appears for this adjustment layer. The properties panel allows you to edit the settings for the layer you have selected.</p>
-        <p>The properties panel for our levels adjustment layer displays a histogram. This histogram shows a distribution of light levels across the entire image. The left side of the histogram shows the amount of dark area in a photo, meanwhile the right side shows the amount of light area in a photo.</p>
-        <p>The three triangular sliders right below the histogram allow us to increase/decrease the dark, mid, and light tones. You'll notice.</p>
-        <p><span class="highlight">Experiment with these three sliders to see their effects on the image, then find a setting that works best for you.</span> If you're stuck, try setting the black slider to 20, and the gray slider to 0.90.</p>
-        <p>Finally, when you're done adjusting your layer, you can preview the changes made by toggling the layer on an off. To toggle a layer, simply click the eyeball icon next to it in the layers panel.</p>
-        <div class="centered-image-small"><img src="images/adjustments-layertoggle.png"></div>
-        <h3>Brightness and Contrast</h3>
-        <div class="side-image-large"><img src="images/adjustments-brightnesscontrast.png"></div>
-        <p>In the same way you added the levels adjustment layer, you can add a brightness and contrast adjustment layer. You'll notice the properties panel looks different for this layer than for the levels layer. This is because the properties panel changes depending on which layer you have selected.</p>
-        <p>The two sliders here will adjust the brightness and contrast of the image accordingly. Feel free to experiment with them, however, it appears this image doesn't need much adjustment in terms of brightness and contrast.</p>
-        <h2>Color Balance</h2>
-        <p>The biggest flaw in our photo involves its color. The entire image has a heavy yellow tint, likely due to the intense stage lights used during the performance. Along with the unnatural yellow tint, the warm colors in the image drown out any cool colors. Luckily, we can fix this using our adjustment layers.</p>
-        <div class="side-image-large"><img src="images/adjustments-colorbalance.png"></div>
-        <ol class="instruction-list">
-            <li>
-                <p>Create a new color balance adjustment layer.</p>
-            </li>
-            <li>
-                <p>In the layers panel, make sure the color balance adjustment layer is selected, then view the properties panel.</p>
-                <p>The properties panel contains a set of sliders that can be dragged left or right to change the amount of particular color in the photo. Note that the color balance must be adjusted separately for midtones, highlights, and shadows by changing the selection in the Tone dropdown menu.</p>
-            </li>
-            <li>
-                <p>Experiment with the set of sliders for midtones, highlights, and shadows.</p>
-                <p>A color cast can be reduced by increasing the amount of color directly opposite to the cast color on the sliders. In our case, this means increasing the amount of cool colors, while taking away from the amount of warm colors.</p>
-            </li>
-        </ol>
-        <p>Below is a table with the exact adjustments we made:</p>
-        <table>
-            <tr>
-                <th>Tone</th>
-                <th>Cyan/Red</th>
-                <th>Magenta/Green</th>
-                <th>Yellow/Blue</th>
-            </tr>
-            <tr>
-                <td>Highlights</td>
-                <td>0</td>
-                <td>0</td>
-                <td>+24</td>
-            </tr>
-            <tr>
-                <td>Midtones</td>
-                <td>-15</td>
-                <td>-6</td>
-                <td>+38</td>
-            </tr>
-            <tr>
-                <td>Shadows</td>
-                <td>-12</td>
-                <td>+2</td>
-                <td>+10</td>
-            </tr>
-        </table>
-        <h2>Conclusion</h2>
-        <p>In these exercises, we were only to cover a few of the many adjustment layers possible. We highly recommending spending some time on your own exploring and practicing with other adjustment layers. The most commonly used are hue and saturation, vibrance, and exposure. Combined, adjustment layers prove to be a very powerful in getting the best results from your image.</p>
-        <p>For example, in the image we used as an example, we were able significantly improve it with only two quick adjustment layers. Of course, what looks good and what doesn't look good is entirely subjective, and decided by the photo editor.</p>
-        <div class="sidebyside-image-large"> <img src="images/adjustments-comparison-1.jpg"> <img src="images/adjustments-comparison-2.jpg"> </div>
-        <p>Finally, it's important that you make your adjustments subtle. Often when presented with such a wide range of options, people tend to over-edit their photos. They key to making your photo look good, is by making it appear unedited. Keep you adjustments small, and your effects subtle.</p>
-    </section>
-    <section class="topic">
-        <h1>Image Retouching</h1>
-        <p>Photoshop offers a wide variety of image retouching tools and techniques, which can be used to edit and manipulate specific areas of an image in order to improve its appearance. In this section, we will use just a few of Photoshop's retouching tools to remove red-eye effects and blemishes. We will be learning the following tools:</p>
-        <div class="tool-reference">
-            <h3>Red Eye Removal</h3>
-            <img src="images/icon-redeyetool.png">
-            <p><strong>Red Eye Removal Tool:</strong> Allows you to click anywhere in your image to remove red tones, specifically made for red eyes found in digital images where the camera's flash has been used.</p>
-            <p>The Red Eye Removal tool is available under the Spot Healing Brush Tool in the Tools panel. If you do not see it, click and hold on the Spot Healing Brush Tool (shortcut key: <kbd>J</kbd>).</p>
-        </div>
-        <h2>Red Eye Removal</h2>
-        <p>A common problem in many photos is the dreaded red-eye phenomenon, which is caused by a reflection from a camera flash. In this exercise, we will learn to use the red eye tool to correct this problem.</p>
-        <ol class="instruction-list">
-            <li>
-                <p>Open <span class="type-text">face.jpg</span> by going to <span class="type-text">File > Open</span> in the menu bar.</p>
-            </li>
-            <li>
-                <p>Before making any changes to the document, we want to save a copy. From the menu bar, choose <span class="type-text">File > Save As</span>, set the file format to Photoshop (PSD) then click save.</p>
-            </li>
-        </ol>
-        <div class="side-image-large"><img src="images/retouching-backgroundlayer.png"> </div>
-        <p>By default, Photoshop sets a newly opened image as a "Background Layer" and locks it to prevent unintended changes. In order to edit our image, we will need to unlock this layer. <span class="highlight">Click the lock icon next to the background layer to unlock it.</span> Now we're ready to begin editing out image.</p>
-        <ol class="instruction-list">
-            <li>
-                <p>Zoom into the image approximately 200%, so we can view the eyes.</p>
-            </li>
-            <li>
-                <p>In the tools panel, click and hold the spot healing brush tool to reveal the tools beneath it.</p>
-            </li>
-            <div class="centered-image-small"><img src="images/retouching-findingtools.png"></div>
-            <li>
-                <p>Select the red eye tool.</p>
-            </li>
-            <li>
-                <p>Click in the pupil of one of the eyes to make the red tones disappear. Repeat for the second eye.</p>
-            </li>
-        </ol>
-        <h2>Blemish Removal</h2>
-        <p>Small blemishes can easily be removed using Photoshop's spot healing brush tool. In this exercise, we will use the spot healing brush to remove blemishes from our subject's face.</p>
-        <div class="tool-reference">
-            <h3>Spot Healing Brush</h3>
-            <img src="images/icon-spothealingbrush.png">
-            <p><strong>Spot Healing Brush:</strong> This tool automatically removes blemishes by filling in the selected area with color from nearby pixels.</p>
-        </div>
-        <ol class="instruction-list"> <img class="sidebar-icon" src="images/icon-spothealingbrush.png">
-            <li>
-                <p>In the tools panel, click and hold the red eye tool to reveal tools hidden beneath it. Click the spot healing brush tool to select it.</p>
-            </li>
-            <li>
-                <p>In the layers panel, click the new layer icon in the lower-right corner of the panel to create a new layer.</p>
-            </li>
-            <div class="centered-image-small"><img src="images/retouching-newlayer.png"></div>
-            <li>
-                <p>In the options bar, make sure that "Content-Aware" and "Sample All Layers" are both checked. These options allow you to sample pixels from the original image, while only making changes to the new layer we just created. Without these options selected, you would only be able to sample pixels from our current layer, which is blank.</p>
-            </li>
-            <li>
-                <p>Zoom in to magnify the forehead area.</p>
-            </li>
-            <div class="side-image-large"><img src="images/retouching-brushoptions.png"></div>
-            <li>
-                <p>On the far left side of the options bar, click the brush picker icon to open brush options.</p>
-                <p>In the brush options panel, set the hardness to 0. Hardness refers to how sharp the edge of the brush is. 100% hardness means the effect of the brush is strictly limited to the boundary of the brush, creating hard edges. 0% hardness means the effect of the brush fades out from the edges of the brush, creating a softer, blended effect.</p>
-            </li>
-            <li>
-                <p>Locate a blemish and set the brush size to be slightly larger than the blemish.</p>
-            </li>
-            <li>
-                <p>Click the blemish to make it disappear. Repeat this process for other imperfections you may find.</p>
-            </li>
-        </ol>
-    </section>
-    <section class="topic">
-        <h1>Brush and Type Tools</h1>
-        <p>This section will introduce two powerful new tools, the brush tool and type tool.</p>
-        </div>
-        <p>We will be using these tools to create a colorful, artsy-looking slogan we will use for our final project. Our final project will be creating a poster advertising the University of Wisconsin. By the end of this section, we should have a slogan that looks similar to the following:</p>
-        <div class="centered-image-large border"><img src="images/brushandtype-finalproduct.png"></div>
-        <p>Please note that this section of the manual is entirely optional, and if you find yourself running out of time you can pass on this part by making a simpler title.</p>
-        <h2>Creating Type</h2>
-        <p>For this exercise, we will be creating the text to use for the title of our final project. </p>
-        <div class="tool-reference">
-            <h3>Type Tool</h3>
-            <img src="images/icon-typetool.png">
-            <p><strong>Type Tool:</strong> The type tool allows you to add and manipulate text on your image.</p>
-            <p>Click once to create <em>Point Type</em>, which will go on as long as the line of text you type in.</p>
-            <p>Click and drag to create <em>Area Type</em>, which lets you choose the size of the box in which text will go. </p>
-            <p>The Character Panel (<strong>Window > Character</strong>) allows you to adjust things like how far apart letters are, and the height of each line of text.</p>
-        </div>
+             </ol>
 
-        <ol class="instruction-list">
-            <li>
-                <p>Open <span class="type-text">title.psd</span> from the class files folder. This provides us with a blank canvas to work with to create our title.</p>
-            </li> <img class="sidebar-icon" src="images/icon-typetool.png">
-            <li>
-                <p>Select the type tool from the toolbar, then click and drag a large text box across your image. Type the first few words of the slogan you would like to use for your final poster. For example purposes, the slogan we chose is "JUST IMAGINE WHAT'S POSSIBLE".</p>
-            </li>
-            <li>
-                <p>Using the same process, create another text box with the type tool, then type the second part of your slogan. You should now have two individual text boxes containing your slogan.</p>
-                <div class="centered-image-large"><img src="images/brushandtype-title-1.png"></div>
-            </li>
-        </ol>
-        <p>Congratulations! You've just created your very first type in Photoshop. Your layers panel should now have two layers, one for each text box.</p>
-        <div class="centered-image-small"><img src="images/brushandtype-layerspanel-1.png"></div>
-        <p>We now want to customize and position our text as much as possible before moving to the next steps.</p>
-        <ol class="instruction-list">
-            <li>
-                <p>While the type tool is active, click on a text box to begin editing it.</p>
-            </li>
-            <div class="side-image-small border"><img src="images/brushandtype-handle.png"></div>
-            <li>
-                <p>While the text box is active, you may use the handles on each corner and side to change its size. Adjust the size of the text box until it fits your text nicely.</p>
-            </li>
-            <li>
-                <p>Click and drag to select all the text inside the text box. While the text is selected, you can now edit its properties in the options bar. This includes the font, style, size, alignment, color, and much more. We will be using the following settings for our title.</p>
-                <div class="centered-image-large"><img src="images/brushandtype-optionsbar.png"></div>
-                <p>The small colored square on the far right of the options bar refers to text color. To change the color of your text, make sure it is selected, the click on the square to bring up the color picker.</p>
-                <p>Before moving on to the next step, take some time to customize your text and make it your own.</p>
-            </li>
-            <div class="sidebar-note">
-                <h2>More Character Options</h2> <img class="sidebar-icon" src="images/icon-characterspanel.png">
-                <p>On the far right side of the options bar you will find a button that opens the character panel, containing even more options and features for typography lovers.</p>
+       
+            <p>Remember that the ordering of the layers will determine which layers are on top, and which are on bottom. For example, an image on the top layer will cover up anything beneath it.</p>
+            <h2>Creating Adjustment Layers</h2>
+            <p>There are two main ways to create adjustment layers, both of which you may use throughout this section. First, you can navigate to <span class="type-text">Layer > New Adjustment Layer</span> in the menu bar.</p>
+            <div class="centered-image-medium"><img src="images/adjustments-addinglayer-1.png" alt="new adjustment layer"></div>
+            <p>The other method is to use the adjustments panel found in the panel dock. If you have difficulty finding it, go to <span class="type-text">Window > Adjustments</span>.</p>
+            <div class="centered-image-small"><img src="images/adjustment_layer_panel.png" alt="adjustment layers panel"></div>
+            <div class="reference">
+                <h3>Adjustment Layers</h3>
+                <img src="images/adjustments-addinglayer-2.png" alt="The adjustment layers panel">
+                <p><strong>Adjustment Layers:</strong> Let you create non-destructive (meaning you can go back and change them later) adjustments to the appearance of an image.</p>
+                <p>These include things like <strong>Brightness/Contrast</strong>, <strong>Levels</strong>, <strong>Curves</strong>, <strong>Color Balance</strong>, <strong>Hue/Saturation</strong> and more.</p>
+                <p>Adjustment layers affect every layer that is lower than them in the Layers panel. If it is the very top layer, it affects every layer in the image. If it's the very bottom layer in the stack, it will not affect any other layers.</p>
+                <p>To make an Adjustment Layer affect only the layer directly beneath, right click the Adjustment Layer's name in the Layers panel and click <strong>Create Clipping Mask</strong></p>
             </div>
-            <li>
-                <p>Confirm the changes you made to your type by clicking the check mark in the options bar.</p>
-            </li>
-            <li>
-                <p>Now that your text has the right size and styling, we want move and position it properly within the workspace.</p> <img class="sidebar-icon" src="images/icon-movetool.png">
-                <p>Select the move tool, then select the layer you would like to move in the layers panel. Now you can click and drag to move it within your workspace.</p>
-                <p>So far, our slogan looks like this:</p>
-                <div class="centered-image-large"><img src="images/brushandtype-title-2.png"></div>
-            </li>
-        </ol>
-        <h2>Adding Color with the Brush Tool</h2>
-        <p>In the following exercise we will be using the brush tool to add a series of colors to our slogan to make it visually appealing.</p>
-        <div class="tool-reference">
-            <h3>Brush Tool</h3>
-            <img src="images/icon-brushtool.png">
-            <p><strong>Brush Tool:</strong> In its simplest form, the brush tool allows you to paint on your image or canvas, just as you would with a paint brush in real life. </p>
-            <p>To increase/decrease the size of the brush, use the <kbd>[</kbd> and <kbd>]</kbd> bracket keys on the keyboard.</p>
-            <p>You can also use the tool brush size dropdown in the Menu bar, or right-click while the brush is selected.</p>
-        </div>
+            <p>Each icon on the adjustments panel represents a different adjustment layer that can be added. Hover over an icon to view its name, then click on an icon to add that adjustment layer.</p>
+            <h2>Tone and Contrast Adjustments</h2>
+            <p>Tone and contrast adjustments change the distribution of light and dark values (also known as tonal range) within an image. These types of adjustments can be used to compensate for poor lighting conditions, and to sharpen the appearance of objects in an image.</p>
+            <h3>Levels</h3>
+            <p>In this exercise, we will use the levels panel to make adjustments to the tonal range of an image.</p>
+            <ol class="instruction-list">
+                <li>
+                    <p>First we will open an existing image to add adjustment layers. In the menu bar, choose <span class="type-text">Open</span> then select <span class="type-text">llama.jpg</span>.</p>
+                </li>
+                <li>
+                    <p>From the menu bar, choose <span class="type-text">Layer > New Adjustment Layer > Levels</span>.</p>
+                </li>
+                <div class="center-image-large"><img src="images/llama-levels-adjustment.png" alt="adjustment layer"></div>
 
-        <h3>Changing Brush Properties</h3> <img class="sidebar-icon" src="images/icon-brushtool.png">
-        <p>Before we begin, it's important to know how to change the color, size, and style of our brush. <span class="highlight">Select the brush tool so that it is active.</span> In the options bar, you'll notice a button that opens up the brush options panel.</p>
-        <div class="side-image-large"><img src="images/brushandtype-brushpanel.png"></div>
-        <p>Here you can find settings for the <strong>size</strong> of the brush (how big it appears on screen) and for the <strong>hardness</strong> of the brush (how soft or hard the edges of the brush are).</p>
-        <p>Below this is a series of options for the shape of your brush. Photoshop has many styles of brushes built in, however, you can also download thousands of brushes online, and even create your own.</p>
-        <p>We also need to know how to change the color of our brush. Near the bottom of the toolbar there are two small squares; the top square represents the <strong>foreground color</strong>, while the bottom square represents the <strong>background color</strong>. For now, to change the color of our brush, we will change the foreground color.</p>
-        <div class="centered-image-small"><img src="images/brushandtype-colors.png"></div>
-        <p>By double-clicking on the front square, you will open a color picker. This will allow you to change the color of your brush. As shown in the image above, our brush will paint with a bright green color.</p>
-        <h3>Painting on Our Image</h3>
-        <ol class="instruction-list">
-            <li>
-                <p>While our brush tool is selected, use the brush options panel to pick a brush, then use the color picker to pick a bright eccentric color.</p>
-            </li>
-            <div class="side-image-large"><img src="images/brushandtype-layerspanel-2.png"></div>
-            <li>
-                <p>In the layers panel, select the new layer icon. Click and drag the new layer to the top of the layers panel, placing it on top of our text. This will be the layer that we use to paint on.</p>
-            </li>
-            <li>
-                <p>Begin painting on the image by clicking and dragging the mouse over the workspace. Paint until all of the text is covered, and feel free to switch colors and brush sizes along the way to make it more interesting.</p>
-            </li>
-            <p>After a few minutes of painting, our result looks like this.</p>
-            <div class="centered-image-medium"><img src="images/brushandtype-title-3.png"></div>
-        </ol>
-        <p>We now want to cut away any excess color that is not inside of our text, in order to achieve the effect we previewed at the beginning of this section.</p>
-        <ol class="instruction-list">
-            <li>
-                <p>Select both text layers by clicking on the first layer, then holding shift while clicking on the second layer. Both text layers should now be selected in the layers panel.</p>
-            </li>
-            <li>
-                <p>Rasterize the layers by right-clicking on the selected layers, then choosing <strong>"Rasterize Type"</strong> from the menu that appears.</p>
-                <p>This converts our type into a raster graphic, meaning we can no longer edit the type because it is made up of individual pixels. Photoshop now sees the text as an image rather that text.</p>
-            </li>
-            <li>
-                <p>Right click on the two selected layers again, then select "Merge Layers" from the menu. This will take our two layers and combine them into one. Our layers panel should now look like this:</p>
-                <div class="centered-image-small"><img src="images/brushandtype-layerspanel-3.png"></div>
-            </li>
-            <div class="side-image-small"><img src="images/brushandtype-layerspanel-4.png"></div>
-            <li>
-                <p>Right click on the preview square next on our text layer to reveal a new menu. On this menu, click on <strong>"Select Pixels"</strong>. We have now selected all the pixels in our workspace corresponding to our text.</p>
-            </li>
-            <li>
-                <p>In the menu bar, navigate to <span class="type-text">Select > Inverse</span>. This will invert our selection, selecting only pixels outside of our text region. </p>
-            </li>
-            <li>
-                <p>Select Layer 1 (the layer we painted on) in the layers panel. Hit the delete key on your keyboard to delete all pixels within the selected region.</p>
-            </li>
-        </ol>
-        <p>You have now completed what will become the slogan or title for our poster we make in the next section. <span class="highlight">Be sure to save your work before moving on!</span> It should look something like this:</p>
-        <div class="centered-image-large border"><img src="images/brushandtype-finalproduct.png"></div>
+                <li>
+                    <p>In the new layer window, leave the settings as they are and click OK.</p>
+                </li>
+                <li>
+                    <p>In the layers panel, make sure the new adjustment layer is selected. If the layers panel is visible, you can access it by going to <span class="type-text">Window > Layers</span> in the menu bar.</p>
+                </li>
+            </ol>
+            <div class="side-image-large"><img src="images/llama-levels-details.png" alt="adjustment layer properties panel"></div>
+            <p>Notice that a properties panel appears for this adjustment layer. The properties panel allows you to edit the settings for the layer you have selected.</p>
+            <p>The properties panel for our levels adjustment layer displays a histogram. This histogram shows a distribution of light levels across the entire image. The left side of the histogram shows the amount of dark area in a photo, meanwhile the right side shows the amount of light area in a photo.</p>
+            <p>The three triangular sliders right below the histogram allow us to increase/decrease the dark, mid, and light tones. You'll notice.</p>
+            <p><span class="highlight">Experiment with these three sliders to see their effects on the image, then find a setting that works best for you.</span> If you're stuck, try setting the black slider to 0, and the gray slider to 1.60.</p>
+            <p>Finally, when you're done adjusting your layer, you can preview the changes made by toggling the layer on an off. To toggle a layer, simply click the eyeball icon next to it in the layers panel.</p>
+            <div class="centered-image-small"><img src="images/toggle-layer.png" alt="adjestments layer toggle"></div>
+            <h3>Brightness and Contrast</h3>
+            <div class="side-image-large"><img src="images/adjustments-brightnesscontrast.png" alt="brightness and contrats adjustment layer"></div>
+            <p>In the same way you added the levels adjustment layer, you can add a brightness and contrast adjustment layer. You'll notice the properties panel looks different for this layer than for the levels layer. This is because the properties panel changes depending on which layer you have selected.</p>
+            <p>The two sliders here will adjust the brightness and contrast of the image accordingly. Feel free to experiment with them, however, it appears this image doesn't need much adjustment in terms of brightness and contrast.</p>
+            <h2>Color Balance</h2>
+            <p>The biggest flaw in our photo involves its color. The entire image has a heavy yellow tint, likely due to the intense stage lights used during the performance. Along with the unnatural yellow tint, the warm colors in the image drown out any cool colors. Luckily, we can fix this using our adjustment layers.</p>
+            <div class="side-image-large"><img src="images/colorbalance-layer.png" alt="color balance adjustment layer"></div>
+            <ol class="instruction-list">
+                <li>
+                    <p>Create a new color balance adjustment layer.</p>
+                </li>
+                <li>
+                    <p>In the layers panel, make sure the color balance adjustment layer is selected, then view the properties panel.</p>
+                    <p>The properties panel contains a set of sliders that can be dragged left or right to change the amount of particular color in the photo. Note that the color balance must be adjusted separately for midtones, highlights, and shadows by changing the selection in the Tone dropdown menu.</p>
+                </li>
+                <li>
+                    <p>Experiment with the set of sliders for midtones, highlights, and shadows.</p>
+                    <p>A color cast can be reduced by increasing the amount of color directly opposite to the cast color on the sliders. In our case, this means increasing the amount of cool colors, while taking away from the amount of warm colors.</p>
+                </li>
+            </ol>
+    
+            <p>In these exercises, we were only to cover a few of the many adjustment layers possible. We highly recommending spending some time on your own exploring and practicing with other adjustment layers. The most commonly used are hue and saturation, vibrance, and exposure. Combined, adjustment layers prove to be a very powerful in getting the best results from your image.</p>
+            <p>For example, in the image we used as an example, we were able significantly improve it with only two quick adjustment layers. Of course, what looks good and what doesn't look good is entirely subjective, and decided by the photo editor.</p>
+            
+            <p>Finally, it's important that you make your adjustments subtle. Often when presented with such a wide range of options, people tend to over-edit their photos. They key to making your photo look good, is by making it appear unedited. Keep you adjustments small, and your effects subtle.</p>
+
+            <h2>Merging Layers</h2>
+    
+            <p>We can merge two adjacent layers by selecting the top item and then choosing <span class="type">Layer > Merge Layers</span>.</p>
+            <img style="max-width: 200px;" class="ce ntered-image-small" src="images/merge_layers.png" alt="layers panel, new layer"> 
+
+    
+
+       
     </section>
+
     <section class="topic">
-        <h1>Creating a Poster</h1>
-        <p>For our final project, we will apply our skills to create a poster advertising the University of Wisconsin. In the process of creating this poster, we will learn about:</p>
-        <ul>
-            <li>
-                <p>Setting up a new document</p>
-            </li>
-            <li>
-                <p>Placing and arranging images and text</p>
-            </li>
-            <li>
-                <p>Organizing layers</p>
-            </li>
-            <li>
-                <p>Adding effects to layers</p>
-            </li>
-        </ul>
-        <p>By the time we are finished, we will have a stunning poster to present to Rebecca Blank. It should look something similar to this, with your own personal touch of course:</p>
-        <div class="centered-image-large"><img src="images/poster-final.png"></div>
-        <h2>Setting up a New Document</h2>
-        <p>So far, we have used Photoshop to open and edit existing images and files. In this section, we will create a new document from scratch. <span class="highlight">To create a new document, navigate to <span class="type-text">File > New</span> in the menu bar. A window will pop up asking for information about the new document.</span>
-        </p>
-        <div class="centered-image-large"><img src="images/poster-newdocument.png"></div>
-        <ul>
-            <li>
-                <p><strong>Width/Height:</strong> Sets the dimensions of the document. We will want to make our poster 11 inches wide and 8.5 inches tall.</p>
-            </li>
-            <li>
-                <p><strong>Resolution:</strong> As discussed earlier in this course, resolution refers to the number of pixels per square inch of an image. We will be using 300 pixels per inch, which means each square inch of our image is 300 x 300 pixels large. This resolution is generally standard for high quality digital images and printing.</p>
-            </li>
-            <li>
-                <p><strong>Color Mode:</strong> Changes the color mode of the document between RGB and CMYK. For graphics that will be viewed on the web or on screens, use RGB. For anything that will be printed, use CMYK. To learn more about color modes and what they mean, look to our more in-depth Photoshop course manuals.</p>
-            </li>
-            <li>
-                <p><strong>Background Contents:</strong> Specifies what our background will be upon first opening the document. For now, we will select "Transparent" to have a blank layer.</p>
-            </li>
-        </ul>
-        <p>Once we have setup our document properly, you should have a blank workspace to work with. <span class="highlight">Before moving on, be sure to save your poster as <span class="type-text">poster.psd</span>.</span>
-        </p>
-        <h2>Placing Images</h2>
-        <p>In our class files folder, we have a series of images we would like to add to our poster.</p>
-        <ol class="instruction-list">
-            <li>
-                <p>To add an image to our poster, navigate to <span class="type-text">File > Place Embedded</span> from the menu bar.</p>
-            </li>
-            <li>
-                <p>Open the file <span class="type-text">bascom.jpg</span> from the class files folder.</p>
-            </li>
-            <li>
-                <p>Photoshop automatically scales the image to fit inside the document window, but we can resize and move it to suit our needs. Resize and move the image so that it matches the example below.</p>
-                <ol class="instruction-list">
-                    <li>
-                        <p>To move the image, click anywhere on the image and drag.</p>
-                    </li>
-                    <li>
-                        <p>To resize the image, press and hold the shift key, then click and drag on one of the handlebars in the corner of the image. By holding the shift key, we can maintaining our original image proportions.</p>
-                    </li>
-                </ol>
-                <div class="centered-image-large"><img src="images/poster-imageplacement.png"></div>
-            </li>
-            <li>
-                <p>When you are finished with the transformation, click the check mark in the options bar, or press enter to apply the changes. <em>Remember, you confirm the changes by clicking the check mark, all other Photoshop features are locked!</em></p>
-            </li>
-            <li>
-                <p>Repeat the same steps to place the Wisconsin logo near the bottom of the image. The Wisconsin logo can be found in the class files folder, with the name <span class="type-text">logo.png</span>.</p>
-            </li>
-            <li>
-                <p>Finally, repeat the image placement process one last time to add our colorful slogan to the top of the poster.</p>
-            </li>
-        </ol>
-        <p>Our poster should now look like the following:</p>
-        <div class="centered-image-medium"><img src="images/poster-inprogress-1.png"></div>
-        <h2>Using the Quick Selection Tool</h2>
-        <p>We would now like to add an image of a happy student into our poster, like we see in the example at the top of this section. We have a photo named <span class="type-text"> student.jpg</span> in our class files folder that we will use.</p>
-        <p>If we were to simply place this image into our poster, it would show up as a giant rectangle containing the entire photo. <strong>Instead, we would like to place the student in our poster without the background behind him.</strong> Luckily, we can do this with the help of the quick selection tool.</p>
-        <div class="tool-reference">
+        <h1>Cleaning Up an Image</h1>
+            <h2>Selection Tools</h2>
+             <p>Photoshop has a number of tools to help us make selections in order to draw and paint and mask objects and to make changes in isolated areas.</p>
+                <h3>Marquee Tool</h3>
+                    <p>We can use the marquee tool simply by clicking and dragging over the area of our workspace that we want to select. To deselect the selection just hit command/Ctrl + D. This tool comes in handy when the selection we need is a simple geometric shape.</p>
+                <h3>Lasso Tool</h3>
+                    <p>We can make more specific selections using the lasso tool to draw around your selection.</p>
+                <h3>Quick Selection Tool </h3>
+                  <div class="tool-reference">
             <h3>Quick Selection tool</h3>
-            <img src="images/icon-quickselectiontool.png">
+            <img src="images/icon-quickselectiontool.png" alt="quick reference tool">
             <p><strong>Quick Selection Tool:</strong> The quick selection tool creates a selection of pixels by looking for similar textures, tones, and patterns in an image. This makes it easy to select objects with clearly defined edges.</p>
             <p>To use the Quick Selection tool, click the icon in the tools panel or hit the <kbd>W</kbd> shortcut key.</p>
             <p>Click and drag the cursor to automagically add to your selection based on Photoshop's recognition algorithms.</p>
             <p>Use the buttons in the Options menu to create a New selection or subtract from current selection</p>
             <p>Hold the <kbd>Alt/Option</kbd> key while clicking to subtract from current selection.</p>
         </div>
-        <ol class="instruction-list">
-            <li>
-                <p>To get started, open <span class="type-text">student.jpg</span> from the class files folder.</p>
-            </li> <img class="sidebar-icon" src="images/icon-quickselectiontool.png">
-            <li>
-                <p>Select the quick selection tool in the toolbar, or press <kbd>W</kbd> on your keyboard.</p>
-                <p>In the options bar for the quick selection tool, you will notice three brush icons side by side. In order, these buttons allow you to create a new selection, add to an existing selection, or subtract from the current selection. We will leave it set to the first option, because we will be creating a new selection.</p>
-                <div class="centered-image-small"><img src="images/poster-quickselection-1.png"></div>
-            </li>
-            <div class="sidebar-note">
-                <h2>Resizing Your Brush</h2>
-                <p>To quickly resize your brush without going to the options bar, use the bracket keys <kbd>[</kbd><kbd>]</kbd> on your keyboard.</p>
-            </div>
-            <li>
-                <p>Similar to the brush tool we used earlier, we can change the size and qualities of our quick selection tool using a similar panel found in the options bar.</p>
-                <p>Resize your brush to a size you feel is appropriate. We will make our brush 175px large.</p>
-                <div class="centered-image-medium"><img src="images/poster-quickselection-2.png"></div>
-            </li>
-            <li>
-                <p>Click and drag in the workspace to build your selection. You will notice that the selected area automatically snaps to any visual borders found in the image.</p>
-                <p>If at any point you need to remove or add to parts of the selection, using the buttons in the options panel to change modes. By the end of this process, your selection should look similar to the one pictured here.</p>
-            </li>
-        </ol>
-        <p>At this point, you should have the entire student selected. A selection in Photoshop is indicated by a flashing dotted line on the perimeter of the selection. Before moving it into our poster, we want to refine our selection.</p>
-        <ol class="instruction-list">
-            <li>
-                <p>With the quick selection tool active, select the <strong>"Refine Edge"</strong> button in the options bar.</p>
-            </li>
-            <div class="centered-image-tiny"><img src="images/poster-refineedge-1.png"></div>
-            <li>
-                <p>In the refine edge panel, we can adjust the radius, smoothness, feather, and contrast of the edge of our current selection.</p>
-                <div class="centered-image-large border"><img src="images/poster-refineedge-2.png"></div>
-                <p>Adjust each setting as you see fit, or to match the settings in the image above. Click OK when you've finished.</p>
-            </li> <img class="sidebar-icon" src="images/icon-movetool.png">
-            <li>
-                <p>Now that our selection is complete, we can move it into our poster. Select the move tool in the tools panel, then click anywhere within your selection area and drag toward the <span class="type-text">poster.psd</span> tab at the top of the workspace.</p>
-            </li>
-            <li>
-                <p>Continue to hold the mouse button and hover over the <span class="type-text">poster.psd</span> tab until the document window switches to display the poster. Drag to the center of the poster and release the mouse button. Your selection should appear in the poster.</p>
-            </li>
-            <div class="sidebar-note">
-                <h2>Resizing Elements</h2>
-                <p>We can use a keyboard shortcut to show transform controls for the current later. These controls allow you to quickly resize and transform images, text, and shapes.</p>
-                <p>For Mac users:<br><kbd>command</kbd><kbd>t</kbd></p>
-                <p>For Windows users:<br><kbd>control</kbd><kbd>t</kbd></p>
-            </div>
-            <li>
-                <p>At the top of the workspace, click the check box next to "Show Transform Controls". The transform controls will allow you t resize the placed image.</p>
-            </li>
-            <li>
-                <p>Move and resize the image (remember to use the shift key) so that your poster looks similar to the image below. Remember to click the check mark to confirm your changes.</p>
-            </li>
-            <div class="centered-image-medium"><img src="images/poster-inprogress-2.png"></div>
-        </ol>
-    </section>
-    <section class="topic">
-        <h1>The Layers Panel</h1>
-        <p>Like many other Adobe Creative Suite applications, Photoshop utilizes the concept of layers as a method of organizing your work and separating a project into components that can be edited individually. We worked a bit with layers earlier in this class, but in this section, we will discuss additional tactics for manipulating layers within the layers panel.</p>
-        <h2>Organizing Layers</h2>
-        <p>While in the layers panel, you can:</p>
-        <ol>
-            <li>
-                <p><strong>Rename layers:</strong> rename a layer by double clicking the name of the layer.</p>
-            </li> <img class="sidebar-icon" src="images/icon-eyeball.png">
-            <li>
-                <p><strong>Show and hide layers:</strong> click the eyeball icon next to each layer to toggle it on and off.</p>
-            </li> <img class="sidebar-icon" src="images/icon-lock.png">
-            <li>
-                <p><strong>Lock and unlock layers:</strong> to prevent a layer from being edited, select the lock icon at the top of the layers panel while the layer is selected.</p>
-            </li>
-            <li>
-                <p><strong>Reorder layers:</strong> click and drag the layers within the layers panel to reorder them.</p>
-            </li>
-        </ol>
-        <p>Remember that the ordering of the layers will determine which layers are on top, and which are on bottom. For example, an image on the top layer will cover up anything beneath it.</p>
-        <p>While creating your poster, it may be necessary to reorder your layers, and rename them for clarity.</p>
-        <h2>Blending Options</h2>
-        <p>A wide variety of special effects, such as gradients, glows and shadows, can be applied to objects in Photoshop using blending options. Effects are applied to entire layers using the layers panel.</p>
-        <p>In this exercise, we will be using blending options to apply a shadow effect to the layer containing the image of our student.</p>
-        <ol class="instruction-list">
-            <li>
-                <p>In the layers panel, right-click the layer containing the student, then select "Blending Options".</p>
-            </li>
-            <div class="centered-image-medium"><img src="images/layerspanel-menu-1.png"></div>
-            <li>
-                <p>A layer styles panel will open. On the left hand side, you will see a list of different effects you can add to the selected layer.</p>
-                <p>Click on "Drop Shadow", rather than the check box next to it, so that "Drop Shadow" is highlighted in blue and the box next to it is checked. If you only click the check box, the effect will be applied using default settings, but you will not be taken to the menu to change the settings.</p>
-            </li>
-            <div class="centered-image-large"><img src="images/layerspanel-blending.png"></div>
-            <li>
-                <p>Make sure that the preview option (on the right side of the window) is checked. This way you can get a live preview of what the drop shadow will look like on your poster.</p>
-            </li>
-            <li>
-                <p>Experiment with the shadow settings until you end up with a nice drop shadow behind the student. It's recommend that you begin by adjusting the <strong>opacity, spread, and size.</strong></p>
-            </li>
-            <li>
-                <p>When you are satisfied with your shadow effect, click OK.</p>
-            </li>
-        </ol>
-        <p>Notice that the drop shadow also appears in the layers panel. You can show and hide the effect by selecting the eyeball icon next to it.</p>
-    </section>
-    <section class="topic">
-        <h1>Adding Shapes and Text</h1>
-        <h2>Working with Shapes</h2>
-        <p>Though Photoshop is not an ideal tool for creating illustrative graphics, it does include a limited selection of drawing tools. In this section, we will explore Photoshop's pre-set shape tools, and add a shape to our existing poster.</p>
-        <p>In this exercise, we will use the rectangle tool.</p>
-        <div class="tool-reference">
-            <h3>Rectangle Tool</h3>
-            <img src="images/icon-rectangletool.png">
-            <p><strong>Rectangle Tool:</strong> Allows the user to click and drag to create a rectangle shape in the workspace.</p>
-            <p>Use the <strong>Fill</strong> color in the menu bar to change the color isnide the square.</p>
-            <p>Use the <strong>Stroke</strong> to change the outline.</p>
+                 <p>The quick selection tool creates a selection of pixels by looking for similar textures, tones, and patterns in an image. This makes it easy to select objects with clearly defined edges. 
+                The Quick Selection tool also has an option called “Select Subject” which automatically selects the student. </p>
+                <h3>Magic Wand</h3>
+                    <p>The Magic Wand tool makes selections of the pixels adjacent to it. It is usually used to make finer selections.
+                    </p>
+            <h2>Removing the Background</h2>
+                    <ol class="instruction-list">
+                        <li>Open up the image <span class="highlight">llama.jpg</span> </li>
+                        <li>Start by adding a new mask layer. To do this click on the mask layer button in the layers panel.</li>
+                        <div class="centered-image-medium"><img src="images/mask-layer.png" alt="brush options"></div>
 
-        </div>
-        <ol class="instruction-list">
-            <li>
-                <p>In the tools panel, select the rectangle tool. If you click and hold on the rectangle tool, you will notice that Photoshop has a variety of built-in shape tools available for use.</p>
-            </li>
-            <div class="centered-image-small"><img src="images/shapestext-shapetools.png"></div>
-            <li>
-                <p>Select a color for your shape by changing the <strong>fill</strong> in the options bar. In our example, we chose white. You may also open the color picker by selecting the colorful rectangle in the upper-right corner of the fill panel.</p>
-            </li>
-            <div class="centered-image-small"><img src="images/shapestext-fillcolor.png"></div>
-            <li>
-                <p>Click and drag in the lower portion of your poster to draw a rectangle that covers the bottom of the layout.</p>
-            </li>
-            <li>
-                <p>If necessary, rearrange your layers to make sure the UW logo is on top of the rectangle shape.</p>
-            </li> <img class="sidebar-icon" src="images/icon-movetool.png">
-            <li>
-                <p>To move or resize your rectangle, use the move tool in the tools panel. When you are finished moving/resizing, make sure to click the check mark at the top of the window, or press enter to apply your changes.</p>
-            </li>
-            <li>
-                <p>To add a finishing touch to our rectangle, we would like to make our rectangle semi-transparent. While the rectangle layer is selected, change the opacity in the layers panel to <strong>60%</strong>.</p>
-            </li>
-            <div class="centered-image-small"><img src="images/shapestext-opacity.png"></div>
-        </ol>
-        <h2>Working with Text</h2>
-        <p>Photoshop includes tools that are useful for adding small amounts of text, such as headlines and captions, to your projects. For documents with a significant amount of text, programs such as Adobe InDesign and Illustrator are better suited for the task.</p>
-        <p>In this exercise, we will add text to the bottom of our poster, pointing users to where they can find more information. </p>
-        <ol class="instruction-list"> <img class="sidebar-icon" src="images/icon-typetool.png">
-            <li>
-                <p>In the tools panel, select the type tool.</p>
-            </li>
-            <li>
-                <p>Click and drag a small text box immediately below the UW logo, then write the text. For our poster, we chose to write: "For more information, wisc.edu".</p>
-            </li>
-            <li>
-                <p>In the options bar, adjust the font size, alignment, and color settings. This should be familiar, considering we used the type tool earlier in this class.</p>
-            </li>
-            <li>
-                <p>If necessary, move and resize the text using the move tool. Click the check mark once you're finished with your changes.</p>
-            </li>
-        </ol>
+                        <li>In the Tools Panel, Click the Quick Selection Tool </li>
+                        <li>Choose the <span class="type">Select Subject</span> option from the Options Panel.This makes our job easier as Photoshop automatically detects and selects the subject of the image.</li>
+                        <div class="centered-image-medium"><img src="images/select-subject-llama.png" alt="select subject"></div>
+                        <li>As the image we are working with has one llama, or "subject", we can deselect extra portions of the image that photoshop might think is the subject by using the deselct brush from the options panel. </li>
+                        <li>Once we have one character selected, right click on your selection and click on "Select Inverse" from the drop down menu that appears.</li>
+                        <li>Go back to the Tools Panel and select the Brush Tool.</li>
+                        <h3>Changing Brush Properties</h3><img class="sidebar-icon" src="images/icon-brushtool.png" alt="brush tool">
+                    <p>Before we begin, it's important to know how to change the color, size, and style of our brush. <span class="highlight">Select the brush tool so that it is active.</span> In the options bar, you'll notice a button that opens up the brush options panel.</p>
+                    <div class="side-image-large"><img src="images/brushandtype-brushpanel.png" alt="brush options"></div>
+                    <p>Here you can find settings for the <strong>size</strong> of the brush (how big it appears on screen) and for the <strong>hardness</strong> of the brush (how soft or hard the edges of the brush are).</p>
+                    <p>Below this is a series of options for the shape of your brush. Photoshop has many styles of brushes built in, however, you can also download thousands of brushes online, and even create your own.</p>
+                    <p>We also need to know how to change the color of our brush. Near the bottom of the toolbar there are two small squares; the top square represents the <strong>foreground color</strong>, while the bottom square represents the <strong>background color</strong>.</p>
+                    <div class="centered-image-small"><img src="images/brushandtype-colors.png" alt="brush colors"></div>
+                    <p>By double-clicking on the front square, you will open a color picker. This will allow you to change the color of your brush.To remove the background from our image we will keep the foreground color black and the background color white.</p>
+            
+                        <li>Begin painting on the image by clicking and dragging the mouse over the workspace. Paint until all of the selected area (the background) is covered.</li>
+                        <div class="centered-image-medium"><img src="images/remove-bg-llama.png" alt="brush options"></div>
+                    </ol>
+            <h2>Brush Tool</h2>
+                <div class="tool-reference">
+                    <h3>Brush Tool</h3>
+                    <img src="images/icon-brushtool.png" alt="brush tool">
+                    <p><strong>Brush Tool:</strong> In its simplest form, the brush tool allows you to paint on your image or canvas, just as you would with a paint brush in real life. </p>
+                     <p>To increase/decrease the size of the brush, use the <kbd>[</kbd> and <kbd>]</kbd> bracket keys on the keyboard.</p>
+                    <p>You can also use the tool brush size dropdown in the Menu bar, or right-click while the brush is selected.</p>
+                 </div>
+                    
+             <h2>Removing a Subject</h2>
+             <p>We can remove the subject of an image the using the same steps as removing the background of the image. However, Photoshop has some built in features that allow us to remove subjects with a click of a button.</p>  
+             <ol class="instruction-list">
+                 <li>In the image of machu picchu, use the Quick Selection Tool and select the gaurd using the <span class="highlight">Select Subject</span> option </li>
+                 <li>Go to Edit >Content-Aware Fill</li>
+                 <div class="centered-image-small"><img src="images/content-aware-fill-menu.png" alt="conntent aware fill preview box"></div>
+
+                 <li>In the Preview box, click <span class="highlight">OK</span></li>
+                 <div class="center-image-large"><img src="images/content-aware-fill.png" alt="brush colors"></div>
+
+                 <li>While, Photoshop does a pretty good job removing the subject we can go back and clean up the area using the Clone Stamp tool. To do this select the Clone Stamp tool from the Tool Box</li>
+                 <div class="centered-image-small"><img src="images/clone-stamp-tool.png" alt="clone stamp tool"></div>
+                 <li>Select the are you want to clone by holding the Option key and using the curor to select your sampling area.</li>
+                 <li>Once you have your sampling area selected, start painting over the spots you want to touch up by clicking on the areas using your mouse.</li>
+                 <p>Your final image should look something like this.</p>
+                 <div class="centered-image-large"><img src="images/final-content-aware-fill.png" alt="brush colors"></div>
+
+             </ol>     
+    
     </section>
+    <section class="topic">
+        <h1>Creating a Postcard</h1>
+        <p>For our final project, we will apply our skills to create a postcard from Machu Picchu. The final postcard should look like this!</p>
+        <div class="centered-image-large"><img src="images/llama-postcard.png" alt="brush options"></div>
+        <h2>Adding Elements</h2>
+            <p>We are going to star by adding the student to the Machu Pichhu image.</p>
+            <ol>
+                <li>Navigate to the llama.jpg tab.</li>
+                <li>Using the Move tool, click on the character and drag it to the machu_picchu.jpg tab. </li>
+                <li>Release when the screeen switches to the Machu Picchu image.</li>
+                <li>Postion the character in the image.</li>
+            </ol>
+            <h2>Adding Drop Shadows</h2>   
+            <p>To make our character seem more intigrated into the picture, we will add a drop shadow to it.</p>
+            <ol>
+                <li>In the layers panel, click on the layer style button. Make sure that the layer selcted is the one with the student.</li>
+                <li>From the drop down menu select the "Drop Shadow" option.</li>
+                <li>In the pop-up window, experiment with the shadow settings until you end up with a nice drop shadow behind the character. It's recommend that you begin by adjusting the opacity, spread, and size.</li>
+                <li>When you are satisfied with your shadow effect, click OK.</li>
+            </ol>
+            <p>Notice that the drop shadow also appears in the layers panel. You can show and hide the effect by selecting the eyeball icon next to it.</p>
+            <p>Almost every image can benefit from minor adjustments to tone, contrast, and color. These adjustments help compensate for inaccuracies (over/under exposure, etc) or less than ideal conditions (low light, bright sunlight, etc) at the time the image was captured.</p>
+            <p>Photoshop offers a wide variety of adjustment features and options. In this section we will discuss only the most basic adjustment techniques that are both simple and extremely useful. We will continue to focus on non-destructive editing techniques by making use of adjustment layers, which allow adjustments to be applied as editable overlays, rather than permanent changes to the image.</p>
+           
+    
+ </section>
+ <section class-="topic">
+    <h1>Type Tools</h1>
+    <p>This section will introduce two powerful new tools, the brush tool and type tool.</p>
+    </div>
+    <p>We will be using this tool to add a title to our postcard.</p>
+    <div class="centered-image-large border"><img src="images/text-machu-picchu.png"></div>
+    <h2>Creating Type</h2>
+    <p>For this exercise, we will be creating the text to use for the title of our final project. </p>
+    <div class="tool-reference">
+        <h3>Type Tool</h3>
+        <img src="images/icon-typetool.png">
+        <p><strong>Type Tool:</strong> The type tool allows you to add and manipulate text on your image.</p>
+        <p>Click once to create <em>Point Type</em>, which will go on as long as the line of text you type in.</p>
+        <p>Click and drag to create <em>Area Type</em>, which lets you choose the size of the box in which text will go. </p>
+        <p>The Character Panel (<strong>Window > Character</strong>) allows you to adjust things like how far apart letters are, and the height of each line of text.</p>
+    </div>
+
+    <ol class="instruction-list">
+        <li>
+            <p>Select the type tool from the toolbar, then click and drag a large text box across your image. Type the first few words of the title you would like to use for your final poster. For example purposes, the slogan we chose is "Hello from MACHU PICCHU".</p>
+        </li>
+            <div class="centered-image-large"><img src="images/text-box.png"> </div>
+        
+    </ol>
+    <p>Congratulations! You've just created your very first type in Photoshop. Your layers panel should now have a layer for your text box.</p>
+    <div class="centered-image-small"><img src="images/text-box-layers-panel.png"></div>
+    <p>We now want to customize and position our text as much as possible before moving to the next steps.</p>
+    <ol class="instruction-list">
+        <li>
+            <p>While the type tool is active, click on a text box to begin editing it.</p>
+        </li>
+        <div class="side-image-small border"><img src="images/brushandtype-handle.png"></div>
+        <li>
+            <p>While the text box is active, you may use the handles on each corner and side to change its size. Adjust the size of the text box until it fits your text nicely.</p>
+        </li>
+        <li>
+            <p>Click and drag to select all the text inside the text box. While the text is selected, you can now edit its properties in the options bar. This includes the font, style, size, alignment, color, and much more. We will be using the following settings for our title.</p>
+            <div class="centered-image-large"><img src="images/brushandtype-optionsbar.png"></div>
+            <p>The small colored square on the far right of the options bar refers to text color. To change the color of your text, make sure it is selected, the click on the square to bring up the color picker.</p>
+            <p>Before moving on to the next step, take some time to customize your text and make it your own.</p>
+        </li>
+        <div class="sidebar-note">
+            <h2>More Character Options</h2> <img class="sidebar-icon" src="images/icon-characterspanel.png">
+            <p>On the far right side of the options bar you will find a button that opens the character panel, containing even more options and features for typography lovers.</p>
+        </div>
+        <li>
+            <p>Confirm the changes you made to your type by clicking the check mark in the options bar.</p>
+        </li>
+        <li>
+            <p>Now that your text has the right size and styling, we want move and position it properly within the workspace.</p> <img class="sidebar-icon" src="images/icon-movetool.png">
+            <p>Select the move tool, then select the layer you would like to move in the layers panel. Now you can click and drag to move it within your workspace.</p>
+            <p>So far, our slogan looks like this:</p>
+            <div class="centered-image-large"><img src="images/text-machu-picchu.png"></div>
+        </li>
+    </ol>    
+
+</section>
+
     <section class="topic">
         <h1>Saving and Exporting</h1>
         <p>Congratulations! At this point, you should have a completed poster that looks somewhat like this:</p>
-        <div class="centered-image-large"><img src="images/poster-final.png"></div>
+        <div class="centered-image-large"><img src="images/llama"></div>
         <p>Now that our poster is complete, we will want to save it for use in print and on the web. Right now, our poster is stored as a <span class="type-text">.psd</span> file. This means it can only be opened and edited by Photoshop.</p>
-        <div class="side-image-medium"><img src="images/exporting-fileformats.png"></div>
-        <p>To save our image in a different format, go to <span class="type-text">File > Save As</span> in the menu bar. Near the bottom of the window that opens, you will find a drop-down list of formats you may use to save the image.</p>
+        <p>To save our image in a different format, go to <span class="type-text">File > Export > Export As</span> in the menu bar. Near the bottom of the window that opens, you will find a drop-down list of formats you may use to save the image.</p>
+        <div class="center-image-medium"><img src="images/export-as.png"></div>
+
         <p>Most images are stored in a standard <span class="type-text">JPEG</span> file format. When saved in this format, the image is compressed, and our poster can no longer be edited. The advantage of this format is a small file size. If you require a high-quality, uncompressed image, you can save your poster as a <span class="type-text">TIFF</span>.</p>
         <p>Other notable saving options include saving it as a PDF, (choose <span class="type-text">Photoshop PDF</span>) or a <span class="type-text">PNG</span> (portable networks graphic, good for the web.)</p>
         <h1>Next Steps</h1>
